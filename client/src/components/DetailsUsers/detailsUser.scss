@@ -1,0 +1,109 @@
+body{
+    background-color:white !important;
+}
+.emp-profile{
+    padding: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 0.5rem;
+    background: white;
+    border: 3px solid rgb(67, 40, 116);
+    border-radius: 14px;
+    width: 80% !important;
+    color:rgb(67, 40, 116)
+}
+.profile-img{
+    text-align: center;
+    margin-top: -3%;
+
+    
+}
+.profile-img img{
+    width: 70%;
+    height: 160px !important;
+    border: 5px solid  blueviolet;
+    
+}
+.profile-img .file {
+    position: relative;
+    overflow: hidden;
+    margin-top: -20%;
+    width: 70%;
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+    background: #212529b8;
+}
+.profile-img .file input {
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+.profile-head h5{
+    color: rgb(67, 40, 116);
+}
+.profile-head h6{
+    color: rgb(67, 40, 116);
+}
+.profile-edit-btn{
+    border: none;
+    border-radius: 1.5rem;
+    width: 70%;
+    padding: 2%;
+    font-weight: 600;
+    color: rgb(67, 40, 116);
+    cursor: pointer;
+}
+.proile-rating{
+    font-size: 12px;
+    color: rgb(67, 40, 116);
+    margin-top: 5%;
+}
+.proile-rating span{
+    color: rgb(67, 40, 116);
+    font-size: 15px;
+    font-weight: 600;
+}
+.profile-head .nav-tabs{
+    margin-bottom:5%;
+}
+.profile-head .nav-tabs .nav-link{
+    font-weight:600;
+    border: none;
+}
+.profile-head .nav-tabs .nav-link.active{
+    border: none;
+    border-bottom:2px solid rgb(67, 40, 116);
+}
+.profile-work{
+    padding: 14%;
+    margin-top: -15%;
+}
+.profile-work p{
+    font-size: 12px;
+    color: #818182;
+    font-weight: 600;
+    margin-top: 10%;
+}
+.profile-work a{
+    text-decoration: none;
+    color: rgb(67, 40, 116);
+    font-weight: 600;
+    font-size: 14px;
+}
+.profile-work ul{
+    list-style: none;
+}
+.profile-tab label{
+    font-weight: 600;
+}
+.profile-tab p{
+    font-weight: 600;
+    color: rgb(67, 40, 116);
+}
+
+.titlee{
+    text-align: center;
+    margin-left: 37.5%;
+}

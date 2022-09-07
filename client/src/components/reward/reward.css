@@ -1,0 +1,109 @@
+
+.homee{
+    color: rgb(67, 40, 116);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 100px;
+}
+
+
+
+ 
+a{
+  color:rgb(67, 40, 116);
+}
+ 
+
+
+ 
+  
+   label, input {
+    display: block;
+  }
+  form input {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 2px solid rgb(67, 40, 116);
+    border-radius: 14px;
+    box-sizing: border-box;
+    background-color: white;
+    color: rgb(67, 40, 116);
+   
+  }
+
+  form textarea{
+    background-color:white;
+    color: rgb(67, 40, 116);
+    width:100%;
+    border: 2px solid rgb(67, 40, 116);
+    border-radius: 14px;
+  }
+  form button {
+    background: var(--primary);
+    border: 0;
+    color: rgb(67, 40, 116);
+    padding: 10px;
+    font-family: "Poppins";
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  div.error {
+    padding: 10px;
+    background: rgb(67, 40, 116);
+    border: 1px solid var(--error);
+    color: var(--error);
+    border-radius: 4px;
+    margin: 20px 0;
+  }
+  input.error {
+    border: 1px solid var(--error);
+  } 
+
+  .btnn{
+    border: 2px solid rgb(67, 40, 116);
+    font-size: 16px;
+    margin-left: 32.5%;
+    font-weight: bold;
+   
+    color: white;
+  }
+
+  form{
+    margin-top: 7%;
+    margin-right: 7%;
+  }
+ 
+  .rewards{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2%;
+  
+  }
+
+  .img{
+   width: 65%;
+   height: 115px !important;
+   /* border: 1px solid white; */
+   margin-left: 16%;
+  
+  }
+  
+  .Card:hover{
+    transform: translate(1.1);
+    max-width: 445;
+     height:'22.5%';
+     margin:'2%';
+     width:'29.3%';
+     color:'rgb(67, 40, 116)';
+     background-color:'white';
+      border-radius:'18px';
+      box-shadow:'1px 1px 3px rgb(67, 40, 116)'
+  }
+
+  .clear{
+    position: absolute;
+    right: 6px;
+    top: 4px;
+  }

@@ -1,6 +1,6 @@
 const router =require('express').Router();
 
-const {createReward , getRewards , deleteReward , countReward} = require('./../controllers/rewardController')
+const {createReward , getRewards , deleteReward , countReward} = require('../controllers/rewardController')
 
 router.post('/' , createReward)
 router.get('/' , getRewards)

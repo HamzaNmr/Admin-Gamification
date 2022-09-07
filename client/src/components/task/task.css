@@ -1,0 +1,105 @@
+
+.homee{
+    color: black;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 100px;
+}
+
+
+ .workout-details {
+    background:white;
+    border-radius: 4px;
+    margin: 35px  auto;
+    margin-left: 10%;
+    padding: 20px;
+    position: relative;
+    box-shadow: 1px 1px 4px rgb(67, 40, 116);
+    color:rgb(67, 40, 116);
+    font-weight: bold;
+    /* border: 3px solid rgb(67, 40, 116); */
+    border-radius: 18px;
+  }
+
+ 
+a{
+  color:#7d6eab;
+}
+ 
+  .workout-details p {
+    margin: 0;
+    font-size: 1em;
+    color: black;
+  }
+  .workout-details .span {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 50%;
+    color: black;
+  }
+
+ 
+  
+   label, input {
+    display: block;
+  }
+  form input {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgb(67, 40, 116);
+    color: rgb(67, 40, 116);
+   
+  }
+
+  form textarea{
+    background-color:rgb(67, 40, 116);
+    color: rgb(67, 40, 116);
+  }
+  form button {
+    background: var(--primary);
+    border: 0;
+    color: #fff;
+    padding: 10px;
+    font-family: "Poppins";
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  div.error {
+    padding: 10px;
+    background: #ffefef;
+    border: 1px solid var(--error);
+    color: var(--error);
+    border-radius: 4px;
+    margin: 20px 0;
+  }
+  input.error {
+    border: 1px solid var(--error);
+  } 
+
+  .btnn{
+    border: 2px solid rgb(67, 40, 116);
+    font-size: 16px;
+    margin-left: 32.5%;
+    font-weight: bold;
+    background-color: rgb(67, 40, 116) ;
+  }
+
+  form{
+    margin-top: 7%;
+    margin-right: 7%;
+  }
+
+  
+.workouts {
+  color: black !important;
+}
+
+  
