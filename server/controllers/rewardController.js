@@ -1,4 +1,4 @@
-const Reward = require('./../models/rewardModel')
+const Reward = require('../models/rewardModel')
 
 
     const createReward = async (req,res) => {

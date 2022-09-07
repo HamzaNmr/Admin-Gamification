@@ -1,0 +1,32 @@
+.list {
+  background-color:  white;
+    display: flex;
+    width: 100%;
+    .listContainer {
+      flex: 6;
+      margin-left: 15% !important;
+    }
+  }
+
+  .title{
+    text-align: center;
+    margin: 4.5% 0%;
+    color: rgb(67, 40, 116);
+  }
+
+  
+  .listcontainer {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 20px;
+    margin: 25px;
+  
+    
+    
+
+    .listTitle {
+      font-weight: 500;
+      color: rgb(67, 40, 116) !important;
+      margin-bottom: 15px;
+    }
+  }
